@@ -96,7 +96,7 @@ print(factorial(10));
 ## Project Structure
 
 ```
-flux/
+flux_interpreter/
 ├── src/
 │   ├── lexer.h / lexer.c          # Tokenizer
 │   ├── ast.h   / ast.c            # AST node types and constructors
@@ -107,7 +107,8 @@ flux/
 │   ├── hello.flux
 │   ├── fibonacci.flux
 │   └── fizzbuzz.flux
-└── Makefile
+├── Makefile
+└── README.md
 ```
 
 ### Key implementation details
